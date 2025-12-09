@@ -32,10 +32,15 @@ This dataset contains most recent and relevant information that Craiglist provid
 Beyond the final, material objective, which is to create a machine learning model capable of predicting car prices based on a set of characteristics, there is the objective of learning how to structure a machine learning project. To do this, we have divided the project into four phases:
 
 **1. EDA (Exploratory Data Analysis):** In this first phase, we observed the fields and data contained in this dataset. The main objective was to make initial contact with the dataset to understand all the fields it contained and how the data had been stored in it.
+
 **2. Preprocessing:** Once we were familiar with the dataset, we made the relevant changes we considered necessary to the data. The objective of this second phase was to prepare the data so that it could be analyzed with the models. We made the following changes to the data: elimination of columns with excessive numbers of NaNs, normalization, PCA, etc.
+
 **3. Selection of metrics:** In this phase, we trained a regression model and calculated a set of metrics to then analyze which metric is most appropriate for the problem. This phase is essential for choosing the set of metrics we will use to decide which model best fits our dataset.
+
 **4. Model selection:** In this phase, we will use the metric or set of metrics chosen in the previous phase to choose the best model. We trained different models with all the hyperparameter configurations.
+
 **5. Final analysis:** Last but not least, we used the best-perfomance model with unseen data and we analyzed the results obtained and we helped us with graphical visualizations.
+
 # Model & Results
 
 The model with the best performance metricas was RandomForestRegressor with n_estimators=296 and max_depth=17.
