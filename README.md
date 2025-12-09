@@ -59,14 +59,8 @@ cd Kaggle
 ```
 
 **Install the requiremnts file (mandatory)**:
-<<<<<<< HEAD
 ```bash
 pip install -r requirements.txt
 ```
-=======
-    ```pip install -r requirements.txt
-
-    ```
->>>>>>> 9da8f62e2d64d0214cb1b35e95caa1db04244ede
 
 
