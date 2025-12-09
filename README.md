@@ -6,7 +6,12 @@
 ## 📄 Project Report 
 
 # Dataset
-The dataset used in this project is: Price Prediction Model 
+To access the source Database: [Link to Database](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data)
+
+This dataset contains most recent and relevant information that Craiglist provides on car sales including 22 columns. This data is scraped every few months.
+
+- **Target:** Price
+- **Features:** year, model, manufacturer, condition, fuel, cylinders, transmission, etc.
 
 ## Authors
 | **Name**              | **NIU**   |
@@ -17,17 +22,6 @@ The dataset used in this project is: Price Prediction Model
 ## Objective
 
 This project has the objective of creating a machine learning model to predict car prices based on various features. This project is based on the Kaggle Car Price Prediction Challenge dataset from Kaggle.
-
-## Database
-
-To access the source Database: [Link to Database](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data)
-
-This dataset contains most recent and relevant information that Craiglist provides on car sales including 22 columns. This data is scraped every few months.
-
-- **Target:** Price
-- **Features:** year, model, manufacturer, condition, fuel, cylinders, transmission, etc.
-
-# Objectives
 
 Beyond the final, material objective, which is to create a machine learning model capable of predicting car prices based on a set of characteristics, there is the objective of learning how to structure a machine learning project. To do this, we have divided the project into four phases:
 
@@ -62,6 +56,7 @@ cd Kaggle
 ```bash
 pip install -r requirements.txt
 ```
+
 
 
 
