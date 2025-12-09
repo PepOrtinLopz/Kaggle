@@ -20,7 +20,7 @@ This project has the objective of creating a machine learning model to predict c
 
 ## Database
 
-To access the source Database: [Link to Database](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data) \n
+To access the source Database: [Link to Database](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data) /n
 This dataset contains most recent and relevant information that Craiglist provides on car sales including 22 columns. This data is scraped every few months.
 
 **Target:** Price
@@ -62,4 +62,5 @@ pip install -r requirements.txt
 
     ```
 >>>>>>> 9da8f62e2d64d0214cb1b35e95caa1db04244ede
+
 
