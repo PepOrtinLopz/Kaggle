@@ -1,10 +1,4 @@
 # Car Price Prediction - Kaggle
-### Author: 
-Arnau Muñoz Barrera 
-
-José Ortín López
-
-Ecologic Cars E-commerce Website.
 
 ### Prerequisites
 - An IDE like IntelliJ IDEA, Visual Studio Code.
@@ -46,22 +40,25 @@ Beyond the final, material objective, which is to create a machine learning mode
 The model with the best performance metricas was RandomForestRegressor with n_estimators=296 and max_depth=17.
 The results obtained were:
 
-Metric	Train Set	Test Set
-0	MAE	0.000134	0.000544
-1	R²	0.999992	0.999792
-
-
+| Metric | Train Set | Test Set |
+|--------|-----------|----------|
+| MAE    | 0.000134  | 0.000544 |
+| R²     | 00.999992 | 0.999792 |
 ### Setup
 
-**Clone the repository**:
-    ```sh
-    git clone <repository-url>
-    cd <repository-directory>
-    ```
-**Go to the directory**:
-    ```cd Kaggle
-    ```
+**Clone the repository and go to the directory**:
+```sh
+git clone https://github.com/PepOrtinLopz/Kaggle.git
+cd Kaggle
+```
+
 **Install the requiremnts file (mandatory)**:
+<<<<<<< HEAD
+```bash
+pip install -r requirements.txt
+```
+=======
     ```pip install -r requirements.txt
 
     ```
+>>>>>>> 9da8f62e2d64d0214cb1b35e95caa1db04244ede
