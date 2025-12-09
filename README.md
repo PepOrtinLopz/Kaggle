@@ -6,7 +6,7 @@
 ## 📄 Project Report 
 
 # Dataset
-The dataset used in this project is: # Price Prediction Model 
+The dataset used in this project is: Price Prediction Model 
 
 ## Authors
 | **Name**              | **NIU**   |
@@ -62,5 +62,6 @@ cd Kaggle
 ```bash
 pip install -r requirements.txt
 ```
+
 
 
